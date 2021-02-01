@@ -29,7 +29,7 @@ const Box = styled.div`
 }
 
 .server input {
-    width: 19vw;
+    width: 18vw;
     height: 3vh;
     background: #1D1A20;
     border-radius: 1vh;
@@ -44,7 +44,7 @@ const Box = styled.div`
 }
 
 .invite input {
-    width: 19vw;
+    width: 18vw;
     height: 3vh;
     background: #2f3136;
     border-radius: 1vh;
@@ -71,7 +71,7 @@ export default (() => {
         <div><Main>
             <div><Box>
                 <div className='logo'>
-                    <p><br/><img src={Logo}/></p>
+                    <p><br/><Link to='/Main'><img src={Logo}/></Link></p>
                 </div>
                 <div className='server'><br/>
                 &ensp;Сервер<br/>
