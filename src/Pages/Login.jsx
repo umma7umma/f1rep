@@ -17,7 +17,7 @@ const Box = styled.div`
     justify-content: space-evenly;
     align-items: center;
     width: 25vw;
-    height: 66vh;
+    height: 63vh;
     background: #3C3E44;
     border-radius: 1rem;
 
@@ -29,7 +29,7 @@ const Box = styled.div`
 }
 
 input {
-    width: 19vw;
+    width: 18vw;
     height: 3vh;
     background: #2f3136;
     border-radius: 1vh;
@@ -56,7 +56,7 @@ export default (() => {
         <div><Main>
             <div><Box>
                 <div className='logo'>
-                    <p><br/><img src={Logo}/></p>
+                    <p><br/><Link to='/Main'><img src={Logo}/></Link></p>
                 </div>
                 <div className='auth'><br/>
                 &ensp;Логин<br/>
