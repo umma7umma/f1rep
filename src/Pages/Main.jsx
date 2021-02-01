@@ -149,7 +149,7 @@ export default (() => {
         <div><Main>
                 <div className='menu'>
                     <div className='logo'>
-                        <img src={Logo}/>
+                        <Link to='/'><img src={Logo}/></Link>
                         Horizon
                     </div>
                     <div className='items'>
