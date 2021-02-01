@@ -17,7 +17,7 @@ const Box = styled.div`
     justify-content: space-evenly;
     align-items: center;
     width: 25vw;
-    height: 66vh;
+    height: 63vh;
     background: #3C3E44;
     border-radius: 1rem;
 
